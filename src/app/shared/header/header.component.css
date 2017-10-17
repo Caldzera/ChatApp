@@ -35,5 +35,6 @@
 	position: relative;
     	margin-left: auto;
     	z-index: 100;
-    	vertical-align: middle;
+        vertical-align: middle;
+        margin-top: 6px;
 }
