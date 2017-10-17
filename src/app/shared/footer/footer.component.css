@@ -1,13 +1,6 @@
-.Footer {
-    border-top: 2.5px solid black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-
-.FootText {
+.footer {
+    border-top: 2px solid lightslategrey;
     text-align: center;
-    padding-bottom: 15px;
-
+    vertical-align: center;
+padding-top: 10px;
 }
