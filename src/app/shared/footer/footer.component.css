@@ -1,0 +1,13 @@
+.Footer {
+    border-top: 2.5px solid black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.FootText {
+    text-align: center;
+    padding-bottom: 15px;
+
+}
