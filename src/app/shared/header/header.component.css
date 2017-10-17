@@ -1,4 +1,4 @@
-header {
+/*header {
     overflow: hidden;
 }
 .logo {
@@ -17,4 +17,23 @@ header {
 
 .Header {
     border-bottom: 2px solid black;
+}
+
+*/
+
+
+
+.header {
+	background-color: #00802F;
+	text-align: center;
+	margin: auto;
+	vertical-align: center;
+}
+
+
+.logo {
+	position: relative;
+    	margin-left: auto;
+    	z-index: 100;
+    	vertical-align: middle;
 }
