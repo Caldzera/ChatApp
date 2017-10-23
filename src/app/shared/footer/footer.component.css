@@ -2,5 +2,12 @@
     border-top: 2px solid lightslategrey;
     text-align: center;
     vertical-align: center;
+    background-color: #00802f;
+    color: white;
 padding-top: 10px;
 }
+.footer a {
+    color: white;
+}
+
+
