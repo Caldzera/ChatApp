@@ -1,0 +1,16 @@
+<div id="UsernameEingabe">
+    <div class="col-lg-3">
+  
+        <textarea [(ngModel)]="chatUsername" (keyup.enter)="addUsername(chatMessage, chatUsername)" class="username form-control" rows="2" placeholder="Nickname"></textarea>
+     
+        <!--<app-username (submitUsername)="onSubmitUsername($event)"></app-username>-->
+    </div>
+    <div class="col-lg-7">
+  
+        <textarea [(ngModel)]="chatMessage" (keyup.enter)="addMessage(chatMessage, chatUsername)" class="chatnachricht form-control" rows="2" placeholder="Hier bitte deine Nachricht eingeben"></textarea>
+        
+    </div>
+    <div class="col-lg-2">
+      <button (click)="addMessage(chatMessage, chatUsername)" [disabled]="!chatMessage" class="btn btn-primary">Senden</button>
+    </div>
+</div>

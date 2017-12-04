@@ -1,0 +1,20 @@
+.footer {
+    border-top: px solid lightslategrey;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 20px;
+    background-color: #00802f;
+    color: silver;
+    position: absolute;
+    width:100%;
+    bottom:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+.footer a {
+    color: white;
+
+}
+
+

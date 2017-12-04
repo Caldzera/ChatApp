@@ -1,13 +1,29 @@
+import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+import {BrowserModule} from '@angular/platform-browser';
 import { TestBed, async } from '@angular/core/testing';
+
 import { AppComponent } from './app.component';
+import {FooterComponent} from './shared/components/footer/footer.component';
+import {HeaderComponent} from './shared/components/header/header.component';
+import { HttpClient } from 'selenium-webdriver/http';
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        HeaderComponent,
+        FooterComponent
       ],
-    }).compileComponents();
+      imports: [
+        BrowserModule,
+        FormsModule,
+        HttpClientModule
+      ],
+}).compileComponents();
   }));
+  
   it('should create the app', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;

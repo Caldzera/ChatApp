@@ -1,0 +1,22 @@
+.btn {
+    margin-top: 49px;
+    background-color: #00802F;
+    text-align: center;
+    
+} 
+
+.usernmae {
+    margin-top: 49px;
+    text-align: center;
+
+} 
+
+.chatnachricht {
+    position: relative;    
+    text-align: left;
+    margin-top: 10%;
+}
+
+.col-lg-3 {
+    margin-top: 38px;
+}

@@ -1,0 +1,11 @@
+<div>
+  <h3>Benutzername</h3>
+  <input type="text" [(ngModel)]="nickname" (keyup.enter)="createNickname()" placeholder="Ihr Benutzername" class="form-control">
+  <button class="btn btn-primary" [disabled]="!nickname" (click)="createNickname()">Erstellen</button>
+  <div *ngIf="message">
+    <div class="nickname-message alert alert-info">
+      <span>{{message}}</span>
+    </div>
+  </div>
+</div>
+

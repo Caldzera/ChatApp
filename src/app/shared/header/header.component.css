@@ -30,10 +30,9 @@
 	vertical-align: center;
 }
 
-
 .logo {
 	position: relative;
-    	margin-left: auto;
+    	margin-left: 140px;
     	z-index: 100;
         vertical-align: middle;
         margin-top: 6px;

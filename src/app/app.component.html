@@ -1,5 +1,14 @@
 <app-header></app-header>
-<app-content></app-content>
+<div>
+    <div class="col-md-12 col-lg-12">
+        <h1></h1>
+    </div>
+    <div class="col-md-4 col-lg-4">
+        <app-chat-nickname></app-chat-nickname>
+    </div>
+    <div class="col-md-8 col-lg-8">
+        <app-chat-history [history]="messageHistory"></app-chat-history>
+        <app-chat-bar (submitMessage)="onSubmitMessage($event)"></app-chat-bar>
+    </div>
+</div>
 <app-footer></app-footer>
-
-
