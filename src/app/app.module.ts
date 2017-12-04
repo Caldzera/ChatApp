@@ -11,6 +11,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { PersonService } from './shared/services/person.service';
 import { SocketIoModule, SocketIoConfig } from 'ng-socket-io';
+import {NgxAutoScroll} from 'ngx-auto-scroll/lib/ngx-auto-scroll.directive';
 
 const config: SocketIoConfig = { url: 'http://senntee.ch:8090', options: {} };
 
@@ -22,7 +23,8 @@ const config: SocketIoConfig = { url: 'http://senntee.ch:8090', options: {} };
     FooterComponent,
     ChatBarComponent,
     ChatHistoryComponent,
-    ChatNicknameComponent
+    ChatNicknameComponent,
+    NgxAutoScroll
   ],
   imports: [
     BrowserModule,

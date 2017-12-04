@@ -2,7 +2,7 @@
   
     <h3>Chatverlauf</h3>
     
-    <textarea style="text-align:left" readonly rows="5" class="form-control">{{history}} </textarea>
+    <textarea style="text-align:left" readonly rows="10" ngx-auto-scroll [innerHTML]="history" class="form-control"></textarea>
    
 </div>
 
